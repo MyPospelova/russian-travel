@@ -1,0 +1,31 @@
+.cover__background {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 740px;
+  background-image: url(../../../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.cover__background:hover .cover__overlay {
+  opacity: 0.6;
+  transition: opacity 0.4s ease-in-out;
+}
+@media all and (max-width: 1024px) {
+  .cover__background {     
+    min-height: 640px;
+  }
+}
+@media all and (max-width: 768px) {
+  .cover__background {     
+    min-height: 480px;
+  }
+}
+@media all and (max-width: 320px) {
+  .cover__background {     
+    min-height: 200px;
+  }
+}

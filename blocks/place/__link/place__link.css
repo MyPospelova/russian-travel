@@ -1,0 +1,17 @@
+.place__link {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  color: white;
+  margin-bottom: 48px;
+  display: inline-block;
+}
+.place__link:hover {
+  text-decoration: none;
+}
+@media all and (max-width: 320px) {    
+  .place__link {        
+    display: none;
+  }
+}
