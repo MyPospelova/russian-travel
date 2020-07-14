@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  max-width: 984px;
+  max-width: 1184px;
 }
 @media all and (max-width: 1024px) {    
   .container {
@@ -11,15 +11,13 @@
 }
 @media all and (max-width: 768px) {    
   .container {
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 @media all and (max-width: 320px) {    
   .container {
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

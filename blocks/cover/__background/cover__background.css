@@ -9,6 +9,7 @@
   justify-content: center;
   position: relative;
   z-index: 1;
+  text-decoration: none;
 }
 .cover__background:hover .cover__overlay {
   opacity: 0.6;
@@ -24,7 +25,7 @@
     min-height: 480px;
   }
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 430px) {
   .cover__background {     
     min-height: 200px;
   }

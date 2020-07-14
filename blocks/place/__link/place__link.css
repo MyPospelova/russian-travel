@@ -2,13 +2,14 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  text-decoration: underline;
+  border-bottom: 1px solid white;
   color: white;
-  margin-bottom: 48px;
   display: inline-block;
+  text-decoration: none;
 }
 .place__link:hover {
-  text-decoration: none;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out;
 }
 @media all and (max-width: 320px) {    
   .place__link {        
