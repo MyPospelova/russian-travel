@@ -1,6 +1,9 @@
 .container {
   margin: 0 auto;
   max-width: 1184px;
+  padding-right: 16px;
+  padding-left: 16px;
+  box-sizing: content-box;
 }
 @media all and (max-width: 1024px) {    
   .container {

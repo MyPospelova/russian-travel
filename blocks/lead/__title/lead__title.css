@@ -17,3 +17,8 @@
     margin: 0 auto 16px;
   }
 }
+@media all and (max-width: 310px) {    
+  .lead__title {
+    word-break: break-all;
+  }
+}
